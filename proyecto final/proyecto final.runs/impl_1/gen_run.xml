@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1647561554">
+  <File Type="BITSTR-BMM" Name="top_level_god_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="top_level_god_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="top_level_god_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="top_level_god_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="top_level_god.tcl"/>
+  <File Type="OPT-TIMING" Name="top_level_god_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="top_level_god_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="top_level_god_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="top_level_god_reports.tcl"/>
+  <File Type="OPT-DRC" Name="top_level_god_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="top_level_god.hwdef"/>
+  <File Type="PWROPT-DCP" Name="top_level_god_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="top_level_god_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="top_level_god_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="top_level_god_placed.dcp"/>
+  <File Type="PLACE-IO" Name="top_level_god_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="top_level_god_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="top_level_god_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="top_level_god_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="top_level_god_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="top_level_god_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="top_level_god_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="top_level_god_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="top_level_god_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="top_level_god.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="top_level_god_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="top_level_god_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="top_level_god_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="top_level_god.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="top_level_god_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="top_level_god_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="top_level_god_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="top_level_god_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="top_level_god_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="top_level_god_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="top_level_god_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="top_level_god.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="top_level_god_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="top_level_god_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="top_level_god_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="top_level_god_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="top_level_god_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="top_level_god_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="top_level_god_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="top_level_god_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="top_level_god_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="top_level_god_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="top_level_god_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="top_level_god_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="top_level_god_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="top_level_god_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="top_level_god_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="top_level_god_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="top_level_god_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="top_level_god_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="top_level_god_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="top_level_god_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="top_level_god_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="top_level_god.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="top_level_god_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="top_level_god.rbt"/>
+  <File Type="BITSTR-NKY" Name="top_level_god.nky"/>
+  <File Type="PDI-FILE" Name="top_level_god.pdi"/>
+  <File Type="RCFI_FILE" Name="top_level_god.rcfi"/>
+  <File Type="CFI_FILE" Name="top_level_god.cfi"/>
+  <File Type="RNPI_FILE" Name="top_level_god.rnpi"/>
+  <File Type="NPI_FILE" Name="top_level_god.npi"/>
+  <File Type="RBD_FILE" Name="top_level_god.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="top_level_god.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="top_level_god.sysdef"/>
+  <File Type="BG-BGN" Name="top_level_god.bgn"/>
+  <File Type="BG-DRC" Name="top_level_god.drc"/>
+  <File Type="RDI-RDI" Name="top_level_god.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/baud_rate_clock.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/baud_rate_clock.vhd"/>
+        <Attr Name="ImportTime" Val="1644869376"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/picoblaze_puertos/embedded_kcpsm6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/picoblaze_puertos/embedded_kcpsm6.vhd"/>
+        <Attr Name="ImportTime" Val="1646607720"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/kcpsm6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/kcpsm6.vhd"/>
+        <Attr Name="ImportTime" Val="1400679852"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/modulo_spi.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/modulo_spi.vhd"/>
+        <Attr Name="ImportTime" Val="1645143168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/modulo_uart.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/modulo_uart.vhd"/>
+        <Attr Name="ImportTime" Val="1644358372"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/mux_puerto_entrada.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/mux_puerto_entrada.vhd"/>
+        <Attr Name="ImportTime" Val="1647357442"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/pmod_accelerometer_adxl345.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/pmod_accelerometer_adxl345.vhd"/>
+        <Attr Name="ImportTime" Val="1645158538"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/registro_puerto_entrada.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/registro_puerto_entrada.vhd"/>
+        <Attr Name="ImportTime" Val="1447251890"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/spi_master.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/spi_master.vhd"/>
+        <Attr Name="ImportTime" Val="1645031652"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/uart_rx6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/uart_rx6.vhd"/>
+        <Attr Name="ImportTime" Val="1301612378"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/uart_tx6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/uart_tx6.vhd"/>
+        <Attr Name="ImportTime" Val="1301612296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/real/your_program.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ensamblador/real/your_program.vhd"/>
+        <Attr Name="ImportTime" Val="1647561120"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_level_god.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_level_god"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/proyecto-og/Arty-A7-35-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/Arty-A7-35-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1644855302"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

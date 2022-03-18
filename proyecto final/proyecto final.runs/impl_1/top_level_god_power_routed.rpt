@@ -1,0 +1,211 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date             : Thu Mar 17 18:01:06 2022
+| Host             : DESKTOP-2530G72 running 64-bit major release  (build 9200)
+| Command          : report_power -file top_level_god_power_routed.rpt -pb top_level_god_power_summary_routed.pb -rpx top_level_god_power_routed.rpx
+| Design           : top_level_god
+| Device           : xc7a35ticsg324-1L
+| Design State     : routed
+| Grade            : industrial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 3.822        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 3.754        |
+| Device Static (W)        | 0.069        |
+| Effective TJA (C/W)      | 4.8          |
+| Max Ambient (C)          | 81.7         |
+| Junction Temperature (C) | 43.3         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Slice Logic              |     1.452 |      897 |       --- |             --- |
+|   LUT as Logic           |     1.174 |      312 |     20800 |            1.50 |
+|   LUT as Distributed RAM |     0.160 |       24 |      9600 |            0.25 |
+|   Register               |     0.061 |      370 |     41600 |            0.89 |
+|   CARRY4                 |     0.053 |       33 |      8150 |            0.40 |
+|   BUFG                   |     0.005 |        1 |        32 |            3.13 |
+|   LUT as Shift Register  |    <0.001 |        8 |      9600 |            0.08 |
+|   Others                 |     0.000 |       36 |       --- |             --- |
+| Signals                  |     1.535 |      707 |       --- |             --- |
+| Block RAM                |     0.018 |      0.5 |        50 |            1.00 |
+| I/O                      |     0.747 |        8 |       210 |            3.81 |
+| Static Power             |     0.069 |          |           |                 |
+| Total                    |     3.822 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       0.950 |     3.187 |       3.175 |      0.012 |
+| Vccaux    |       1.800 |     0.039 |       0.027 |      0.012 |
+| Vcco33    |       3.300 |     0.209 |       0.208 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       0.950 |     0.002 |       0.002 |      0.000 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.018 |       0.000 |      0.018 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 4.8                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.6                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++-----------------------------------------------------------+-----------+
+| Name                                                      | Power (W) |
++-----------------------------------------------------------+-----------+
+| top_level_god                                             |     3.754 |
+|   acelerometro                                            |     0.371 |
+|     pmod_accel                                            |     0.371 |
+|       spi_master_0                                        |     0.214 |
+|   reg_entrada                                             |     0.004 |
+|   uart                                                    |     0.212 |
+|     baud_rate_generator                                   |     0.112 |
+|     uart_rx                                               |     0.062 |
+|       div01_lut                                           |     0.013 |
+|       div23_lut                                           |     0.005 |
+|       full_lut                                            |     0.003 |
+|       pointer01_lut                                       |     0.003 |
+|       sample_input_lut                                    |     0.012 |
+|       sample_lut                                          |     0.003 |
+|     uart_tx                                               |     0.037 |
+|       serial_lut                                          |     0.005 |
+|   uprocesador                                             |     2.384 |
+|     processor                                             |     2.159 |
+|       active_interrupt_lut                                |     0.014 |
+|       address_loop[0].output_data.pc_vector_mux_lut       |     0.013 |
+|       address_loop[10].output_data.pc_vector_mux_lut      |     0.013 |
+|       address_loop[2].output_data.pc_vector_mux_lut       |     0.012 |
+|       address_loop[4].output_data.pc_vector_mux_lut       |     0.010 |
+|       address_loop[6].output_data.pc_vector_mux_lut       |     0.011 |
+|       address_loop[8].output_data.pc_vector_mux_lut       |     0.010 |
+|       alu_decode0_lut                                     |     0.021 |
+|       alu_decode1_lut                                     |     0.013 |
+|       alu_decode2_lut                                     |     0.015 |
+|       carry_flag_lut                                      |     0.015 |
+|       data_path_loop[0].arith_logical_lut                 |     0.016 |
+|       data_path_loop[0].lsb_shift_rotate.shift_rotate_lut |     0.026 |
+|       data_path_loop[0].output_data.sy_kk_mux_lut         |     0.101 |
+|       data_path_loop[0].second_operand.out_port_lut       |     0.023 |
+|       data_path_loop[0].small_spm.small_spm_ram.spm_ram   |     0.023 |
+|       data_path_loop[1].arith_logical_lut                 |     0.016 |
+|       data_path_loop[2].arith_logical_lut                 |     0.016 |
+|       data_path_loop[2].mid_shift_rotate.shift_rotate_lut |     0.023 |
+|       data_path_loop[2].output_data.sy_kk_mux_lut         |     0.062 |
+|       data_path_loop[2].second_operand.out_port_lut       |     0.019 |
+|       data_path_loop[3].arith_logical_lut                 |     0.016 |
+|       data_path_loop[4].arith_logical_lut                 |     0.016 |
+|       data_path_loop[4].mid_shift_rotate.shift_rotate_lut |     0.025 |
+|       data_path_loop[4].output_data.sy_kk_mux_lut         |     0.056 |
+|       data_path_loop[4].second_operand.out_port_lut       |     0.022 |
+|       data_path_loop[4].small_spm.small_spm_ram.spm_ram   |     0.023 |
+|       data_path_loop[5].arith_logical_lut                 |     0.016 |
+|       data_path_loop[6].arith_logical_lut                 |     0.016 |
+|       data_path_loop[6].msb_shift_rotate.shift_rotate_lut |     0.024 |
+|       data_path_loop[6].output_data.sy_kk_mux_lut         |     0.030 |
+|       data_path_loop[6].second_operand.out_port_lut       |     0.020 |
+|       data_path_loop[7].arith_logical_lut                 |     0.016 |
+|       int_enable_type_lut                                 |     0.006 |
+|       lower_reg_banks                                     |     0.135 |
+|       move_type_lut                                       |     0.011 |
+|       pc_mode1_lut                                        |     0.021 |
+|       push_pop_lut                                        |     0.009 |
+|       register_enable_lut                                 |     0.012 |
+|       register_enable_type_lut                            |     0.012 |
+|       reset_lut                                           |     0.017 |
+|       stack_ram_high                                      |     0.013 |
+|       stack_ram_low                                       |     0.019 |
+|       t_state_lut                                         |     0.024 |
+|       upper_reg_banks                                     |     0.145 |
+|       use_zero_flag_lut                                   |     0.009 |
+|     program_rom                                           |     0.225 |
++-----------------------------------------------------------+-----------+
+
+

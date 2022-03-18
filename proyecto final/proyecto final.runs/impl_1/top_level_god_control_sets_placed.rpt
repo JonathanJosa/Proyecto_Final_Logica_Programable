@@ -1,0 +1,107 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Mar 17 18:00:40 2022
+| Host         : DESKTOP-2530G72 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_level_god_control_sets_placed.rpt
+| Design       : top_level_god
+| Device       : xc7a35ti
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    29 |
+|    Minimum number of control sets                        |    29 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    38 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    29 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |    14 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     7 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             111 |           37 |
+| No           | No                    | Yes                    |              19 |           10 |
+| No           | Yes                   | No                     |              24 |           10 |
+| Yes          | No                    | No                     |              98 |           32 |
+| Yes          | No                    | Yes                    |              70 |           14 |
+| Yes          | Yes                   | No                     |              48 |           15 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+|  Clock Signal  |                              Enable Signal                             |                       Set/Reset Signal                      | Slice Load Count | Bel Load Count |
++----------------+------------------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+|  CLK_IBUF_BUFG | uprocesador/processor/flag_enable                                      | uprocesador/processor/internal_reset                        |                2 |              2 |
+|  CLK_IBUF_BUFG |                                                                        | uprocesador/processor/active_interrupt                      |                2 |              4 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/FSM_sequential_state_reg[1][0]    |                                                             |                2 |              4 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/clk_toggles0                      | acelerometro/pmod_accel/spi_master_0/clk_toggles[4]_i_1_n_0 |                2 |              5 |
+|  CLK_IBUF_BUFG |                                                                        | uprocesador/processor/internal_reset                        |                3 |              6 |
+|  CLK_IBUF_BUFG |                                                                        | uart/baud_rate_generator/baud_count[5]_i_1_n_0              |                2 |              6 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/FSM_sequential_state_reg[2]_1[0]  | RST_IBUF                                                    |                2 |              6 |
+|  CLK_IBUF_BUFG |                                                                        | uprocesador/program_rom/instruction[7]                      |                3 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/rx_buffer0                        |                                                             |                2 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/rx_data[7]_i_1_n_0                | RST_IBUF                                                    |                1 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/tx_buffer0                        |                                                             |                2 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/E[0]                              |                                                             |                1 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/E[1]                              |                                                             |                1 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/FSM_sequential_state_reg[0]_32[0] |                                                             |                2 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/FSM_sequential_state_reg[0]_32[1] |                                                             |                2 |              8 |
+|  CLK_IBUF_BUFG | uprocesador/processor/spm_enable                                       |                                                             |                2 |              8 |
+|  CLK_IBUF_BUFG | uprocesador/processor/E[0]                                             | RST_IBUF                                                    |                2 |              8 |
+|  CLK_IBUF_BUFG | uart/fsm_tx_pres                                                       |                                                             |                1 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/count_reg[1]_0[0]                 |                                                             |                1 |              8 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/count_reg[1]_0[1]                 |                                                             |                2 |              8 |
+|  CLK_IBUF_BUFG | uart/uart_rx/buffer_write                                              |                                                             |                1 |              8 |
+|  CLK_IBUF_BUFG | uprocesador/processor/WE                                               | uprocesador/processor/internal_reset                        |                3 |             12 |
+|  CLK_IBUF_BUFG | uprocesador/processor/WE                                               |                                                             |                2 |             16 |
+|  CLK_IBUF_BUFG | uprocesador/processor/register_enable                                  |                                                             |                2 |             16 |
+|  CLK_IBUF_BUFG |                                                                        | RST_IBUF                                                    |               10 |             19 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/count[31]_i_2_n_0                 | acelerometro/pmod_accel/spi_master_0/assert_data0           |                8 |             29 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/spi_master_0/count0_0                          |                                                             |               17 |             30 |
+|  CLK_IBUF_BUFG | acelerometro/pmod_accel/acceleration_x[15]_i_1_n_0                     | RST_IBUF                                                    |                9 |             48 |
+|  CLK_IBUF_BUFG |                                                                        |                                                             |               37 |            111 |
++----------------+------------------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+
+

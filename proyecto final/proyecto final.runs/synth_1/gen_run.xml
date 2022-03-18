@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1647561554">
+  <File Type="PA-TCL" Name="top_level_god.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_level_god_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="top_level_god_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top_level_god.vds"/>
+  <File Type="RDS-UTIL" Name="top_level_god_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_level_god_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top_level_god.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_level_god_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_level_god_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/baud_rate_clock.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/baud_rate_clock.vhd"/>
+        <Attr Name="ImportTime" Val="1644869376"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/picoblaze_puertos/embedded_kcpsm6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/picoblaze_puertos/embedded_kcpsm6.vhd"/>
+        <Attr Name="ImportTime" Val="1646607720"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/kcpsm6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/kcpsm6.vhd"/>
+        <Attr Name="ImportTime" Val="1400679852"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/modulo_spi.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/modulo_spi.vhd"/>
+        <Attr Name="ImportTime" Val="1645143168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/modulo_uart.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/modulo_uart.vhd"/>
+        <Attr Name="ImportTime" Val="1644358372"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/mux_puerto_entrada.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/mux_puerto_entrada.vhd"/>
+        <Attr Name="ImportTime" Val="1647357442"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/pmod_accelerometer_adxl345.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/pmod_accelerometer_adxl345.vhd"/>
+        <Attr Name="ImportTime" Val="1645158538"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/registro_puerto_entrada.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/registro_puerto_entrada.vhd"/>
+        <Attr Name="ImportTime" Val="1447251890"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/spi_master.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/spi_master.vhd"/>
+        <Attr Name="ImportTime" Val="1645031652"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/uart_rx6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/uart_rx6.vhd"/>
+        <Attr Name="ImportTime" Val="1301612378"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proyecto-og/uart_tx6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/uart_tx6.vhd"/>
+        <Attr Name="ImportTime" Val="1301612296"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/real/your_program.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ensamblador/real/your_program.vhd"/>
+        <Attr Name="ImportTime" Val="1647561120"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_level_god.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_level_god"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/proyecto-og/Arty-A7-35-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/josaf/Downloads/proyecto-og/proyecto-og/Arty-A7-35-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1644855302"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
